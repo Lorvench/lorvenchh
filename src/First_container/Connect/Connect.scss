@@ -1,0 +1,148 @@
+.connect {
+  width: 50%;
+
+  margin-top: 100px;
+  margin-left: 15%;
+  font-family: "Oswald", sans-serif;
+  //   h1 {
+  //
+
+  //   }
+  p {
+    font-size: 1em;
+    color: #c4c4c4;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    color: rgba(0, 0, 0, 0);
+
+    background: #fdd0df #b4f1f0;
+
+    background: -moz-linear-gradient(
+      -45deg,
+      #fdd0df 0%,
+      #fdd0df 20%,
+
+      rgb(54, 255, 4) 33%,
+
+      rgb(54, 255, 4) 84%,
+      rgba(161, 78, 244, 1) 99%
+    );
+    background: -webkit-linear-gradient(
+      -45deg,
+      #00ff00b9 0%,
+      rgb(54, 255, 4) 20%,
+      rgb(195, 79, 249) 33%,
+      rgb(0, 247, 255) 33%,
+      rgb(54, 255, 4) 46%,
+      rgba(249, 85, 79, 1) 64%,
+      rgb(54, 255, 4) 84%,
+      rgba(161, 78, 244, 1) 99%
+    );
+    background: linear-gradient(
+      135deg,
+      #00ff00b9 0%,
+      rgb(0, 247, 255) 20%,
+      #fdd0df 33%,
+
+      #fdd0df 64%,
+      #fdd0df 84%,
+      rgba(161, 78, 244, 1) 99%
+    );
+    background-position: 1px 1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation: gradient 5s infinite;
+    animation: gradient 5s infinite;
+
+    @-webkit-keyframes gradient {
+      0% {
+        background-position: 1px 1px;
+      }
+
+      25% {
+        background-position: 200px 100px;
+      }
+
+      50% {
+        background-position: 550px 100px;
+      }
+
+      75% {
+        background-position: 200px 100px;
+      }
+
+      100% {
+        background-position: 1px 1px;
+      }
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 1px 1px;
+      }
+
+      25% {
+        background-position: 200px 100px;
+      }
+
+      50% {
+        background-position: 550px 100px;
+      }
+
+      75% {
+        background-position: 200px 100px;
+      }
+
+      100% {
+        background-position: 1px 1px;
+      }
+    }
+  }
+  .social {
+    margin-top: 20px;
+    font-size: 1.3em;
+    a {
+      text-decoration: none;
+      color: #b4f1f0;
+    }
+    :hover {
+      color: #fdd0df;
+
+      transition: 90ms;
+    }
+
+    span {
+      //   margin-left: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .connect {
+    h1 {
+      font-size: 3em;
+    }
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .connect {
+    h1 {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 0.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .connect {
+    h1 {
+      font-size: 2.2em;
+    }
+  }
+}

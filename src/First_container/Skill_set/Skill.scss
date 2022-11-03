@@ -1,0 +1,96 @@
+.skill_main {
+  width: 100%;
+  .skill_1 {
+    margin-left: 110px;
+    margin-top: 150px;
+    //   background-color: rgb(6, 87, 13);
+    font-family: "Merriweather Sans", sans-serif;
+    width: 35%;
+
+    h1 {
+      font-size: 3em;
+
+      font-weight: 800;
+      background: #b4f1f0;
+      background: linear-gradient(to right, #b4f1f0 14%, #fdd0df 28%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      color: #76767a;
+      font-size: 1.1em;
+    }
+  }
+  .skill_2 {
+    margin-top: 80px;
+
+    margin-right: 110px;
+    font-family: "Merriweather Sans", sans-serif;
+    width: 35%;
+    float: right;
+    h1 {
+      font-size: 3em;
+      font-weight: 800;
+
+      background: #fdd0df;
+      background: linear-gradient(to right, #fdd0df 36%, #b4f1f0 75%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      color: #76767a;
+      font-size: 1.1em;
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .skill_main {
+    margin-top: 200px;
+    .skill_1 {
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin: auto;
+    }
+    .skill_2 {
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin: auto;
+      margin-top: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .skill_main {
+    .skill_1 {
+      h1 {
+        font-size: 2.5em;
+      }
+    }
+    .skill_2 {
+      padding-right: 5%;
+      h1 {
+        font-size: 2.5em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .skill_main {
+    .skill_1 {
+      h1 {
+        font-size: 2em;
+      }
+    }
+    .skill_2 {
+      padding-right: 5%;
+      h1 {
+        font-size: 2em;
+      }
+    }
+  }
+}

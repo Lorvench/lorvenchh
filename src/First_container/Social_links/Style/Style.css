@@ -1,0 +1,26 @@
+.social_container {
+  width: 100%;
+  margin-top: 220px;
+  text-align: center;
+}
+.social_container .social_icon {
+  padding: 2em;
+  font-size: x-large;
+}
+.social_container .social_icon a {
+  color: #00ff00;
+}
+.social_container .social_icon i {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 477px) {
+  .social_container .social_icon {
+    padding: 1.5em;
+  }
+}
+@media screen and (max-width: 385px) {
+  .social_container .social_icon {
+    padding: 1em;
+  }
+}/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,121 @@
+.main_set_container {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+}
+.main_set_container .set_container {
+  width: 80%;
+  height: 30em;
+  color: aliceblue;
+  background-color: #171822;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3em;
+  margin-top: 5em;
+  position: relative;
+}
+.main_set_container .set_container .my_btn {
+  position: absolute;
+  float: left;
+  bottom: 0;
+}
+.main_set_container .set_container .my_btn a i {
+  margin-top: 3em;
+  padding-left: 2em;
+  color: #8b8b8b;
+}
+.main_set_container .set_container h1 {
+  font-family: "Abyssinica SIL", serif;
+  font-weight: 800;
+  cursor: pointer;
+  background: #00ff00;
+  background: linear-gradient(to left, #00ff00 0%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main_set_container .set_container h1:hover {
+  background-color: aliceblue;
+}
+.main_set_container .set_container img {
+  width: 500px;
+  height: 250px;
+  border-radius: 1.5em;
+  position: relative;
+  margin-top: -8em;
+}
+.main_set_container .set_container .id {
+  font-family: "Monoton", cursive;
+  font-size: 5em;
+  color: #6f6f71;
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding-right: 0.2em;
+  margin-top: -60px;
+}
+
+.autor {
+  color: #00ff00;
+  transform: rotate(90deg);
+  margin-left: 0.1em;
+  font-family: "Abyssinica SIL", serif;
+}
+
+.my_btn p a {
+  font-family: "Abyssinica SIL", serif;
+  text-decoration: none;
+  color: #00ff00;
+}
+
+@media screen and (max-width: 1117px) {
+  .main_set_container .set_container img {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 867px) {
+  .main_set_container {
+    width: 80%;
+  }
+  .main_set_container .set_container {
+    height: 25em;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .main_set_container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main_set_container {
+    width: 100%;
+  }
+  .main_set_container .set_container {
+    width: 90%;
+  }
+  .main_set_container .set_container img {
+    width: 300px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .main_set_container {
+    width: 100%;
+  }
+  .main_set_container .set_container {
+    width: 95%;
+    height: 350px;
+  }
+  .main_set_container .set_container img {
+    width: 300px;
+    height: 160px;
+  }
+}/*# sourceMappingURL=Style.css.map */

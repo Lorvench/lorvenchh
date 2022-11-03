@@ -1,0 +1,167 @@
+.Little_nav {
+  width: 50%;
+  height: 3.5em;
+  background-color: #1d1e29;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 2em;
+  padding-top: 1em;
+  color: #00ff00b9;
+
+  top: 0;
+  left: 25%;
+  .togger {
+    color: aliceblue;
+    padding-left: 1em;
+  }
+}
+
+.container {
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container .text:nth-child(1) {
+  font-weight: 100;
+}
+
+.container .text:nth-child(2) {
+  font-weight: 500;
+}
+
+.container .text:nth-child(3) {
+  font-weight: 900;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0);
+
+  background: rgb(31, 173, 18);
+
+  background: -moz-linear-gradient(
+    -45deg,
+    rgb(21, 209, 30) 0%,
+    rgb(54, 255, 4) 20%,
+    rgba(249, 85, 79, 1) 33%,
+    rgb(54, 255, 4) 33%,
+    rgba(255, 122, 81, 1) 46%,
+    rgba(249, 85, 79, 1) 64%,
+    rgb(54, 255, 4) 84%,
+    rgba(161, 78, 244, 1) 99%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #00ff00b9 0%,
+    rgb(54, 255, 4) 20%,
+    rgb(195, 79, 249) 33%,
+    rgb(0, 247, 255) 33%,
+    rgb(54, 255, 4) 46%,
+    rgba(249, 85, 79, 1) 64%,
+    rgb(54, 255, 4) 84%,
+    rgba(161, 78, 244, 1) 99%
+  );
+  background: linear-gradient(
+    135deg,
+    #00ff00b9 0%,
+    rgb(0, 247, 255) 20%,
+    rgb(54, 255, 4) 33%,
+    rgba(249, 85, 79, 1) 33%,
+    rgb(54, 255, 4) 46%,
+    rgb(54, 255, 4) 64%,
+    rgb(54, 255, 4) 84%,
+    rgba(161, 78, 244, 1) 99%
+  );
+  background-position: 1px 1px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation: gradient 5s infinite;
+  animation: gradient 5s infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+
+  25% {
+    background-position: 200px 100px;
+  }
+
+  50% {
+    background-position: 550px 100px;
+  }
+
+  75% {
+    background-position: 200px 100px;
+  }
+
+  100% {
+    background-position: 1px 1px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+
+  25% {
+    background-position: 200px 100px;
+  }
+
+  50% {
+    background-position: 550px 100px;
+  }
+
+  75% {
+    background-position: 200px 100px;
+  }
+
+  100% {
+    background-position: 1px 1px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .Little_nav {
+    height: 3em;
+    .text {
+      font-size: 0.7em;
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .Little_nav {
+    // margin: auto;
+    // margin-left: -1em;
+    width: 10em;
+    .text {
+      font-size: 0.9em;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .Little_nav {
+    // margin: auto;
+    // margin-left: -2em;
+    width: 10em;
+    .text {
+      font-size: 0.9em;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .Little_nav {
+    // margin: auto;
+    // margin-left: -2.3em;
+    width: 10em;
+    .text {
+      font-size: 0.9em;
+    }
+  }
+}

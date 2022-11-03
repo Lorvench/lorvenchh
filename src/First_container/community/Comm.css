@@ -1,0 +1,86 @@
+.comm {
+  width: 70%;
+  margin: auto;
+  margin-top: 500px;
+  font-family: "Oswald", sans-serif;
+}
+.comm h1 {
+  font-size: 4em;
+  color: rgba(0, 0, 0, 0);
+  background: #fdd0df #b4f1f0;
+  background: linear-gradient(135deg, rgba(0, 255, 0, 0.7254901961) 0%, rgb(0, 247, 255) 20%, #fdd0df 33%, #fdd0df 64%, #fdd0df 84%, rgb(161, 78, 244) 99%);
+  background-position: 1px 1px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation: gradient 5s infinite;
+  animation: gradient 5s infinite;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+  25% {
+    background-position: 200px 100px;
+  }
+  50% {
+    background-position: 550px 100px;
+  }
+  75% {
+    background-position: 200px 100px;
+  }
+  100% {
+    background-position: 1px 1px;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+  25% {
+    background-position: 200px 100px;
+  }
+  50% {
+    background-position: 550px 100px;
+  }
+  75% {
+    background-position: 200px 100px;
+  }
+  100% {
+    background-position: 1px 1px;
+  }
+}
+.comm p {
+  font-size: 2.7em;
+  color: #c4c4c4;
+}
+.comm p a {
+  text-decoration: none;
+  color: #b4f1f0;
+}
+.comm p :hover {
+  color: pink;
+}
+
+@media screen and (max-width: 950px) {
+  .comm {
+    width: 85%;
+  }
+  .comm h1 {
+    font-size: 3.5em;
+  }
+  .comm p {
+    font-size: 2.4em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .comm {
+    width: 90%;
+  }
+  .comm h1 {
+    font-size: 3em;
+  }
+  .comm p {
+    font-size: 1.5em;
+  }
+}/*# sourceMappingURL=Comm.css.map */

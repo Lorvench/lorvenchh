@@ -1,0 +1,131 @@
+.comm {
+  width: 70%;
+  margin: auto;
+  margin-top: 500px;
+  font-family: "Oswald", sans-serif;
+  h1 {
+    font-size: 4em;
+
+    color: rgba(0, 0, 0, 0);
+
+    background: #fdd0df #b4f1f0;
+
+    background: -moz-linear-gradient(
+      -45deg,
+      #fdd0df 0%,
+      #fdd0df 20%,
+
+      rgb(54, 255, 4) 33%,
+
+      rgb(54, 255, 4) 84%,
+      rgba(161, 78, 244, 1) 99%
+    );
+    background: -webkit-linear-gradient(
+      -45deg,
+      #00ff00b9 0%,
+      rgb(54, 255, 4) 20%,
+      rgb(195, 79, 249) 33%,
+      rgb(0, 247, 255) 33%,
+      rgb(54, 255, 4) 46%,
+      rgba(249, 85, 79, 1) 64%,
+      rgb(54, 255, 4) 84%,
+      rgba(161, 78, 244, 1) 99%
+    );
+    background: linear-gradient(
+      135deg,
+      #00ff00b9 0%,
+      rgb(0, 247, 255) 20%,
+      #fdd0df 33%,
+
+      #fdd0df 64%,
+      #fdd0df 84%,
+      rgba(161, 78, 244, 1) 99%
+    );
+    background-position: 1px 1px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation: gradient 5s infinite;
+    animation: gradient 5s infinite;
+
+    @-webkit-keyframes gradient {
+      0% {
+        background-position: 1px 1px;
+      }
+
+      25% {
+        background-position: 200px 100px;
+      }
+
+      50% {
+        background-position: 550px 100px;
+      }
+
+      75% {
+        background-position: 200px 100px;
+      }
+
+      100% {
+        background-position: 1px 1px;
+      }
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 1px 1px;
+      }
+
+      25% {
+        background-position: 200px 100px;
+      }
+
+      50% {
+        background-position: 550px 100px;
+      }
+
+      75% {
+        background-position: 200px 100px;
+      }
+
+      100% {
+        background-position: 1px 1px;
+      }
+    }
+  }
+
+  p {
+    font-size: 2.7em;
+    color: #c4c4c4;
+    a {
+      text-decoration: none;
+      color: #b4f1f0;
+    }
+    :hover {
+      color: pink;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .comm {
+    width: 85%;
+    h1 {
+      font-size: 3.5em;
+    }
+    p {
+      font-size: 2.4em;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .comm {
+    width: 90%;
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+}

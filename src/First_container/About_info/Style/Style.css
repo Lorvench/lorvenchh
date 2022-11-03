@@ -1,0 +1,100 @@
+.text1 {
+  margin-top: 7em;
+  margin-left: 12%;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 1.3em;
+  width: 50%;
+  color: #929295;
+}
+.text1 i {
+  color: rgba(0, 255, 0, 0.7254901961);
+}
+
+.view_project {
+  margin-top: 60px;
+}
+.view_project a {
+  text-decoration: none;
+  color: #b2b2b8;
+}
+
+.text2 {
+  margin-left: 12%;
+  color: #929295;
+  margin-top: 90px;
+}
+.text2 .project_text {
+  width: 55%;
+  font-weight: 800;
+  font-family: "Merriweather Sans", sans-serif;
+  background: #00ff00;
+  background: linear-gradient(to right, #00ff00 7%, #3ab6cf 38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text2 .project_text {
+  color: rgba(0, 0, 0, 0);
+  background: rgb(31, 173, 18);
+  background: linear-gradient(135deg, rgba(0, 255, 0, 0.7254901961) 0%, rgb(0, 247, 255) 20%, rgb(54, 255, 4) 33%, rgb(249, 85, 79) 33%, rgb(54, 255, 4) 46%, rgb(54, 255, 4) 64%, rgb(54, 255, 4) 84%, rgb(161, 78, 244) 99%);
+  background-position: 1px 1px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation: gradient 5s infinite;
+  animation: gradient 10s infinite;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+  25% {
+    background-position: 200px 100px;
+  }
+  50% {
+    background-position: 550px 100px;
+  }
+  75% {
+    background-position: 200px 100px;
+  }
+  100% {
+    background-position: 1px 1px;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+  25% {
+    background-position: 200px 100px;
+  }
+  50% {
+    background-position: 550px 100px;
+  }
+  75% {
+    background-position: 200px 100px;
+  }
+  100% {
+    background-position: 1px 1px;
+  }
+}
+.text2 .emoji {
+  font-size: 3em;
+}
+
+@media screen and (max-width: 850px) {
+  .text1 {
+    width: 70%;
+    padding-right: 2%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .text1 {
+    width: 85%;
+    font-size: 1em;
+  }
+  .text2 .project_text {
+    width: 70%;
+    padding-right: 1%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Style.css.map */

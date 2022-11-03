@@ -1,0 +1,13 @@
+.icons_cont {
+  right: 0%;
+  position: fixed;
+  margin-top: 350px;
+  margin-right: 1.4em;
+  color: #02e603;
+  font-size: x-large;
+  cursor: pointer;
+}
+.icons_cont :hover {
+  color: #ce1abf;
+  font-size: large;
+}/*# sourceMappingURL=Style.css.map */

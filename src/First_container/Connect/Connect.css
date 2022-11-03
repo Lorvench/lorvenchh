@@ -1,0 +1,86 @@
+.connect {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 15%;
+  font-family: "Oswald", sans-serif;
+}
+.connect p {
+  font-size: 1em;
+  color: #c4c4c4;
+}
+.connect h1 {
+  font-size: 3.5em;
+  color: rgba(0, 0, 0, 0);
+  background: #fdd0df #b4f1f0;
+  background: linear-gradient(135deg, rgba(0, 255, 0, 0.7254901961) 0%, rgb(0, 247, 255) 20%, #fdd0df 33%, #fdd0df 64%, #fdd0df 84%, rgb(161, 78, 244) 99%);
+  background-position: 1px 1px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation: gradient 5s infinite;
+  animation: gradient 5s infinite;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+  25% {
+    background-position: 200px 100px;
+  }
+  50% {
+    background-position: 550px 100px;
+  }
+  75% {
+    background-position: 200px 100px;
+  }
+  100% {
+    background-position: 1px 1px;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 1px 1px;
+  }
+  25% {
+    background-position: 200px 100px;
+  }
+  50% {
+    background-position: 550px 100px;
+  }
+  75% {
+    background-position: 200px 100px;
+  }
+  100% {
+    background-position: 1px 1px;
+  }
+}
+.connect .social {
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+.connect .social a {
+  text-decoration: none;
+  color: #b4f1f0;
+}
+.connect .social :hover {
+  color: #fdd0df;
+  transition: 90ms;
+}
+@media screen and (max-width: 532px) {
+  .connect h1 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 454px) {
+  .connect h1 {
+    font-size: 2.5em;
+  }
+  .connect p {
+    font-size: 0.5em;
+  }
+}
+@media screen and (max-width: 384px) {
+  .connect h1 {
+    font-size: 2.2em;
+  }
+}/*# sourceMappingURL=Connect.css.map */
