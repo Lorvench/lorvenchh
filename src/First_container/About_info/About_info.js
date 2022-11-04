@@ -12,7 +12,7 @@ const About_info = () => {
           &#128519;
         </p>
         <p className="view_project">
-          <a href="#">view project &#128193; </a>
+          <a href="https://github.com/Lorvench">view project &#128193; </a>
         </p>
       </div>
       <div className="text2">

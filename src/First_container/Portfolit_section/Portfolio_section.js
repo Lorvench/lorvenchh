@@ -23,16 +23,16 @@ const Portfolio_section = () => {
               animateIn="animate__rubberBand"
             >
               <p className="my_btn_p">
-                <a href="#">View Project &#128193;</a>
+                <a href="https://github.com/Lorvench">View Project &#128193;</a>
               </p>
             </AnimationOnScroll>
 
-            <a href="#">
+            <a href="https://github.com/Lorvench">
               {" "}
               <i class="bi bi-github"></i>{" "}
             </a>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/joseph-salako-471aba229/">
               {" "}
               <i class="bi bi-linkedin"> </i>{" "}
             </a>
