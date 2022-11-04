@@ -47,10 +47,23 @@
     "tittle": "FENCADAH CARE ",
     "autor": "Lorvench "
   },
+
   {
     "id": "08",
+    "image": "https://lorvench.com/wp-content/uploads/2022/11/React-App-Google-Chrome-04_11_2022-01_08_15-1024x540.png",
+    "tittle": "PORTFOLIO ",
+    "autor": "Lorvench "
+  },
+  {
+    "id": "09",
     "image": "https://lorvench.com/wp-content/uploads/2022/09/DEVCEN-AVG-Secure-Browser-07_09_2022-10_31_48-1024x450.png",
     "tittle": "PERSONAL PROJECT ",
+    "autor": "Lorvench "
+  },
+  {
+    "id": "10",
+    "image": "https://lorvench.com/wp-content/uploads/2022/11/React-App-Google-Chrome-04_11_2022-01_01_34-e1667520180323-1024x540.png",
+    "tittle": " ROBOTICS ",
     "autor": "Lorvench "
   }
 ]
