@@ -4,11 +4,11 @@ const Globe = () => {
   return (
     <div className="view">
       <div className="plane main">
-        <div className="circle">Html</div>
-        <div className="circle">Css</div>
-        <div className="circle">Bootstrap</div>
+        <div className="circle">JavaScript</div>
+        <div className="circle">Tailwind</div>
+        <div className="circle">Figma</div>
         <div className="circle">Scss/Sass</div>
-        <div className="circle">github</div>
+        <div className="circle">Wordpress</div>
         <div className="circle">React</div>
       </div>
     </div>
